@@ -48,10 +48,10 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
           fallbackLoader: "style-loader",
           loader: {
-            loader: "css-loader",
-            query: {
-              modules: true
-            }
+            loader: "css-loader?modules!postcss-loader",
+          // query: {
+          //   modules: true
+          // }
           }
         })
       },
