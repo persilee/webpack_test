@@ -1,0 +1,21 @@
+
+h1 {
+  color: red;
+}
+
+div {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  margin: 10px 0px;
+  padding: 15px;
+  box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
+  border-radius: 5px;
+  display: flex;
+}
+
+._305zeUSoiGREv3GqPa9H8F {
+  color: green;
+}
+
+._2-SV5amo6WjJkZntWR-n0E {
+  color: yellow;
+}

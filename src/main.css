@@ -1,0 +1,46 @@
+@value colors: "./color.css";
+@value blue, red, green from colors;
+
+
+h1 {
+  color: red;
+}
+
+div {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  margin: 10px 0px;
+  padding: 15px;
+  box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
+  border-radius: 5px;
+  display: flex;
+}
+
+.div {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  margin: 10px 0px;
+  padding: 15px;
+  box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
+  border-radius: 50px;
+}
+
+:global(.title) {
+  color: black;
+}
+
+.title {
+  color: red;
+}
+
+.testBg {
+  background-color: red;
+}
+
+.testGreen {
+  color: green;
+}
+
+.testBlue {
+  color: blue;
+  composes: testBg;
+  composes: div;
+}
